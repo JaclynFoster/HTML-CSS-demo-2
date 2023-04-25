@@ -1,0 +1,57 @@
+.blueFont {
+    color:blue;
+}
+
+#giantFont {
+    font-size: xx-large;
+}
+
+p {
+    font-size: larger;
+    color: red;
+}
+
+#parentBox {
+    position: relative;
+    border: 3px solid lightgray;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: coral;
+}
+
+#relativePosition {
+    position: relative;
+    top: 40px;
+}
+
+#fixedPosition {
+    position: fixed;
+    bottom: 15px;
+    right: 30px;
+}
+
+#absolutePosition {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#stickyPosition {
+    position: sticky;
+    top: 50px;
+}
+
+#giantBox {
+    height: 1500px;
+    background-color: black;
+    width: 50px;
+}
